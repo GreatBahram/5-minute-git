@@ -11,7 +11,7 @@
 As you might know git has three different configuration:
 
 - `system`: applied to all users on your computer
-- `global`: applied to all repositiroes for a single user
+- `global`: applied to all repositories for a single user
 - `local`: applied to a single repository
 
 ## Migration :hatched_chick:
@@ -31,13 +31,13 @@ Migrate the global ignore file
 ```shell
 # let's check where it is located now
 git config --global core.excludesFile
-mv $(git config --global core.excludesFile)  ~/.config/.git/ignore
+mv $(git config --global core.excludesFile)  ~/.config/git/ignore
 
 git config --global --unset core.excludesFile
 ```
 
 ```shell
-# ~/.config/git/config
+# ~/.config/git/config (sample .gitignore)
 .vscode/*
 
 *.pyc
