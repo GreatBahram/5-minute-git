@@ -2,6 +2,9 @@
 
 Salam/Hello/Servus/こんにちは, :wave:
 
+>  [!NOTE] 
+> We assume you have a basic knowledge of Git and want to deepen your understanding. If that's not the case, you may want to watch [this course](https://faradars.org/courses/fvgit9609-git-github-gitlab) first.
+
 Here you can find notes and other related information about 5-minute-git Playlist, is about tips and tricks to have a better developer experience with Git, mainly based on [this book](https://adamj.eu/books/#boost-your-git-dx).
 
 - [01 - centralise git configuration](./notes/01-centralise-git-configuration)
