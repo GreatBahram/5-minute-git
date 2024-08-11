@@ -10,4 +10,6 @@ Here you can find notes and other related information about 5-minute-git Playlis
 - [01 - centralise git configuration](./notes/01-centralise-git-configuration.md)
 - [02 - autocorrect & colourful git output](./notes/02-autofix-colourful-output.md)
 - [03 - Backup Git Configuration](./notes/03-backup-configuration.md)
+- [04 - shell aliases](./notes/04-shell-aliases.md)
+- [05 - shell aliases](./notes/05-git-aliases.md)
 
