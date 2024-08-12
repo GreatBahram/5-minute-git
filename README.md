@@ -13,5 +13,6 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [02 - autocorrect & colourful git output](./notes/02-autofix-colourful-output.md)
 - [03 - Backup Git Configuration](./notes/03-backup-configuration.md)
 - [04 - shell aliases](./notes/04-shell-aliases.md)
-- [05 - git aliases](./notes/05-git-aliases.md)
+- [05 - shell aliases](./notes/05-git-aliases.md)
+- [06 - oh-my-zsh](./notes/06-oh-my-zsh.md)
 
