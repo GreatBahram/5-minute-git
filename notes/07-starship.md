@@ -12,6 +12,8 @@ Why [starship](https://starship.rs/)?
 >
 > `ZSH_THEME=""`
 
+<img src="assets/starship-symbols.png" style="zoom:67%;" />
+
 ## Things to cover
 
 - [ ] show programming language infomation
