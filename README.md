@@ -16,4 +16,4 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [05 - shell aliases](./notes/05-git-aliases.md)
 - [06 - oh-my-zsh](./notes/06-oh-my-zsh.md)
 - [07-starship](./notes/07-starship.md)
-
+- [08 - Less](./notes/08-less.md)
