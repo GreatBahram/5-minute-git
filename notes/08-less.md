@@ -28,9 +28,9 @@ Less can be configured using an environmental variable, `LESS`.  Git runs less w
 The book recommends to use the following configuration
 
 ```shell
-export LESS='--chop-long-lines --HILITE-UNREAD --ignore-case \
+export LESS="--chop-long-lines --HILITE-UNREAD --ignore-case \
 	--incsearch --jump-target=4 --LONG-PROMPT --no-init \
-	--quit-if-one-screen --RAW-CONTROL-CHARS --use-color --window=-4'
+	--quit-if-one-screen --RAW-CONTROL-CHARS --use-color --window=-4"
 ```
 
 | Option              | Explanation                                                  |
