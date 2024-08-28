@@ -55,10 +55,13 @@ Luckily, Git offers a solution: “symbolic references”,
 git symbolic-ref refs/heads/main refs/heads/master
 
 git symbolic-ref refs/remotes/origin/main refs/remotes/origin/master
+```
 
-# in case you want to delete them use -d for instance
-git symbolic-ref -d refs/heads/main refs/heads/master
-git symbolic-ref -d refs/remotes/origin/main refs/remotes/origin/master
+In case you want to delete them use `-d` for instance
+
+```shell
+git symbolic-ref -d refs/heads/main
+git symbolic-ref -d refs/remotes/origin/main
 ```
 
 Let's look at the `git log`
