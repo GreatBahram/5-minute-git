@@ -1,5 +1,13 @@
 # Default branch naming
 
+## Objectives
+
+- configure the default branch name
+- rename an existing repository
+- alias master as main
+
+## Configure the default branch name
+
 Git [default branch](https://sfconservancy.org/news/2020/jun/23/gitbranchname/) name is hurtful to some people; you can easily change this:
 
 ```shell
