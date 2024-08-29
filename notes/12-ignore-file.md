@@ -1,5 +1,13 @@
 # Ignore File
 
+**Objectives**
+
+- Ignore patterns
+- Tracking an empty directory
+- Debugging ignore file
+
+## Ignore File Patterns
+
 Let's review some patterns with git ignore file:
 
 - Lines starting with `#` are comments which also have no effect.
