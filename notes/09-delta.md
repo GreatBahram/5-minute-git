@@ -19,6 +19,7 @@ Code evolves, and we all spend time studying diffs. [Delta](https://dandavison.g
 [delta]
     # https://dandavison.github.io/delta/configuration.html
     hyperlinks = true
+    hyperlinks-file-link-format = "vscode://file/{path}:{line}"
     line-numbers = true
     navigate = true
     syntax-theme = Monokai Extended
