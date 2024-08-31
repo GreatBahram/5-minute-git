@@ -1,0 +1,3 @@
+[submodule "dotfiles2"]
+	path = dotfiles2
+	url = https://github.com/GreatBahram/dotfiles2
