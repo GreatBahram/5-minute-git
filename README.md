@@ -22,6 +22,5 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [11 - Default branch naming](./notes/11-default-branch-naming.md)
 - [12 - Ignore file](./notes/12-ignore-file.md)
 - [13 - pre-commit](./notes/13-pre-commit.md)
-- [14 - Common options](./notes/14-common-options.md)
-- [15 - Commit references](./notes/15-commit-references.md)
-- [16 - Pathspecs](./notes/16-pathspecs.md)
+- [14 - Commit references](./notes/14-commit-references.md)
+- [15 - Pathspecs](./notes/15-pathspecs.md)
