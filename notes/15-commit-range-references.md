@@ -27,13 +27,12 @@ you might see **revision parameters** in git documentation (git-log), this is an
 Time for some examples:
 
 ```shell
-git log --oneline main..feature_a
+git log --oneline main..candy_kingdom
 ```
 
-That is like asking: “Which commits have been added to candy_kingdom since it branched
-from main?”.
+That is like asking: “<u>Which commits</u> have been added to `candy_kingdom` since it branched from `main`?”.
 
-If candy_kingdom is the current branch, you can skip writing it:
+If `candy_kingdom` is the current branch, you can skip writing it:
 
 ```
 git log --oneline main..
@@ -42,12 +41,12 @@ git log --oneline main..
 The reverse:
 
 ```shell
-git log --oneline feature_a..main
+git log --oneline candy_kingdom..main
 ```
 
-Like asking: “Which commits have been added to main since candy_kingdom branched from it?”.
+Like asking: “<u>Which commits</u> have been added to `main` since `candy_kingdom` branched from it?”.
 
-Again, when candy_kingdom is the current branch, you can skip writing it:
+Again, when `candy_kingdom` is the current branch, you can skip writing it:
 
 ```shell
 git log ..main
@@ -59,7 +58,7 @@ git log ..main
 git diff main...candy_kingdom
 ```
 
-That is like asking: “Which changes have been added to candy_kingdom since it branched from main?”.
+That is like asking: “<u>Which changes</u> have been added to candy_kingdom since it branched from main?”.
 
 This is what we call merge request/pull request on git hosts.
 
@@ -67,4 +66,8 @@ This is what we call merge request/pull request on git hosts.
 git diff ...main
 ```
 
-Like asking: “Which changes have been added to main since candy_kingdom branched from it?”.
+Like asking: “<u>Which changes</u> have been added to main since candy_kingdom branched from it?”.
+
+
+
+**Question:** When we open a Pull Request on GitHub, which command produces the result that we see?
