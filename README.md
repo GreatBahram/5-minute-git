@@ -28,3 +28,4 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [17 - git sort branches](./notes/17-branch-sort.md)
 - [18 - Git switch](./notes/18-git-switch.md)
 - [19 - Git Switch Recent](./notes/19-switch-recent.md)
+- [20 - Git Worktree](./notes/20-worktree.md)
