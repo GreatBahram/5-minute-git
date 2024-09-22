@@ -27,3 +27,4 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [16 - Pathspecs](./notes/16-pathspecs.md)
 - [17 - git sort branches](./notes/17-branch-sort.md)
 - [18 - Git switch](./notes/18-git-switch.md)
+- [19 - Git Switch Recent](./notes/19-switch-recent.md)
