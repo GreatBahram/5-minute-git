@@ -25,3 +25,5 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [14 - Commit references](./notes/14-commit-references.md)
 - [15 - Commit range references](./notes/15-commit-range-references.md)
 - [16 - Pathspecs](./notes/16-pathspecs.md)
+- 17 - git sort branches
+- [18 - Git switch](./notes/18-git-switch.md)
