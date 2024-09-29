@@ -30,3 +30,4 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [19 - Git Switch Recent](./notes/19-switch-recent.md)
 - [20 - Git Worktree](./notes/20-worktree.md)
 - [21 - Tidy up your local Repo](./notes/21-tidy-up-your-local-repo.md)
+- [22 - Commit Add Co-Author](./notes/22-commit-add-coauthor.md)
