@@ -31,6 +31,6 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [20 - Git Worktree](./notes/20-worktree.md)
 - [21 - Tidy up your local Repo](./notes/21-tidy-up-your-local-repo.md)
 - [22 - Commit Add Co-Author](./notes/22-commit-add-coauthor.md)
-- [23 - Git apply](./notes/23-git-apply.md)
-- [24 - Git push force](./notes/24-git-push-force.md)
+- [23 - Git push force](./notes/23-git-push-force.md)
+- [24 - Git apply](./notes/24-git-apply.md)
 - [25 - Git restore](./notes/25-git-restore.md)
