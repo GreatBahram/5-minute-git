@@ -9,7 +9,7 @@ When you have diverged branches, there are 3 options for combining branches:
 ```mermaid
 graph LR;
     A((❤)) --> B((★));
-    B --> C((#)):::branch1;
+    B --> C((✿)):::branch1;
     B --> D((⟳)):::branch2;
     D --> E((≈)):::branch2;
 
@@ -23,7 +23,7 @@ In case you're looking for having a linear and neat history, rebase is your frie
 
 ```mermaid
 graph LR;
-    A((❤)) --> B((★)) --> C((#)) --> D((⟳)) --> E((≈));
+    A((❤)) --> B((★)) --> C((✿)) --> D((⟳)) --> E((≈));
 ```
 
 ## merge
@@ -31,7 +31,7 @@ graph LR;
 ```mermaid
 graph LR;
     A((❤)) --> B((★));
-    B --> C((#));
+    B --> C((✿));
     B --> D((⟳));
     D --> E((≈));
     C --> F((🔶));
@@ -47,8 +47,8 @@ graph LR;
     A((❤)) --> B((★));
     B --> C((⟳));
     B --> D((≈));
-    D --> E((#));
-    C --> F((≈#));
+    D --> E((✿));
+    C --> F((≈✿));
 ```
 
 Does not matter how many commits you have, just append them together, make it easy and simple!
