@@ -19,7 +19,7 @@ graph LR;
 
 ## rebase
 
-In case you're looking for having a linear and neat history, rebase is your friend. However, rebase is generally harder to learn for newbies 😥 and harder to undo
+If you're aiming for a linear and clean history, rebase is the ideal tool. However, it can be more challenging for beginners to learn and, in some cases, more difficult to undo.
 
 ```mermaid
 graph LR;
@@ -38,7 +38,7 @@ graph LR;
     E --> F((🔶));
 ```
 
-Here, we have a two-way merge commit in git, the benefit is that you have access go to each individual commit in your history! However, the graph of your history is a mess 🙃.
+Here, we have a two-way merge commit in Git. The advantage is that you retain access to each individual commit in your history. However, this can result in a cluttered and complex commit graph.
 
 ## squash
 
@@ -51,6 +51,24 @@ graph LR;
     C --> F((≈✿));
 ```
 
-Does not matter how many commits you have, just append them together, make it easy and simple!
+No matter how many commits you have, you can squash them together, making the history cleaner and simpler to manage.
 
-- easy to revert.
+Plus, It's also easier to revert changes if needed!
+
+## Edit all conflicts at once 🪄
+
+```shell
+git diff --name-only --diff-filter U
+git diff --name-only --diff-filter U | xargs -r $(git var GIT_EDITOR)
+```
+
+```ini
+[alias]
+    ...
+    edit-unmerged = !git diff --name-only --diff-filter U | xargs -r $(git var GIT_EDITOR)
+```
+
+```shell
+git edit-unmerged
+```
+

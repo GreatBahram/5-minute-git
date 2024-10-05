@@ -35,3 +35,4 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [24 - Git apply](./notes/24-git-apply.md)
 - [25 - Git restore](./notes/25-git-restore.md)
 - [26 - Git reflog](./notes/25-git-reflog.md)
+- [27 - Git merge](./notes/27-git-merge.md)
