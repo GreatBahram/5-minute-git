@@ -25,6 +25,7 @@ This is the list of all commands you need to know about them:
 | `git bisect old`   | Mark a commit as exhibiting the old behaviour. |
 | `git bisect new`   | Mark a commit as exhibiting the new behaviour. |
 | `git bisect reset` | End the bisect session.                        |
+| `git bisect run what_to_run` | to automate the git bisect.                        |
 
 ### How to Begin?
 
@@ -40,3 +41,16 @@ Git will then prompt you to determine if the current commit exhibits the "**old*
 - Old behavior is the functioning, correct state.
 
 Once the issue has been narrowed down to a specific commit, you can end the bisect session by running `git bisect reset`, which returns the repository to its original state.
+
+> [!NOTE]
+> If you're **automating** this process, you can create a script, such as a shell or Python script, and pass it to `git bisect` using the following command:
+>
+> ```shell
+> git bisect run bash test.sh
+> ```
+>
+> git bisect will continue executing this script until it identifies the faulty commit.
+
+> [!TIP]
+>
+> You can use [this repository](https://github.com/bast/git-bisect-exercise) to exercise your git bisect skill.
