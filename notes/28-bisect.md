@@ -54,3 +54,9 @@ Once the issue has been narrowed down to a specific commit, you can end the bise
 > [!TIP]
 >
 > You can use [this repository](https://github.com/bast/git-bisect-exercise) to exercise your git bisect skill.
+During the video, we used the following script for the automation part.
+
+```shell
+output=$(python3 get_pi.py)
+[[ "$output" == "3.14" ]] && exit 0 || exit 1
+```
