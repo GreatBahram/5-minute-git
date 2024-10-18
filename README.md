@@ -37,3 +37,4 @@ Link to the [git configuration repository](https://github.com/GreatBahram/dotfil
 - [26 - Git reflog](./notes/25-git-reflog.md)
 - [27 - Git merge](./notes/27-git-merge.md)
 - [28 - Bisect](./notes/28-bisect.md)
+- [29 - Attributes file](./notes/29-attributes.md)
